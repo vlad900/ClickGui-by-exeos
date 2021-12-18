@@ -1,0 +1,9 @@
+in the module class put at the bottom
+
+  	protected final void rSetting(Setting setting) {
+        Tutorial.instance.settingsManager.rSetting(setting);
+    }
+
+    protected final Setting getSetting(String name) {
+        return Tutorial.instance.settingsManager.getSettingByName(name);
+    }
